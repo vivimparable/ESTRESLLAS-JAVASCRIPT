@@ -1,0 +1,24 @@
+
+div {
+  margin-top: 20rem;
+  text-align: center;
+}
+
+#iconos {
+  transform: rotateY(180deg);
+}
+/*He encontrado este metodo por internet en un foro. Espero que sirva */
+i {
+  font-size: 10rem;
+}
+
+.colorDentro {
+  color:rgb(255, 251, 0);
+}
+
+i:hover::before,
+i:hover~i::before {
+    color: rgb(255, 251, 0);
+}
+
+/* NOTA PARA MÍ: HACERLO CON EL HOOVER BEFORE Y ~, SINO SE AÑADE COLOR AL DE DETRÁS SOLO*/
